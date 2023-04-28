@@ -70,6 +70,6 @@ yarn start
 
 # Autor
 
-Wellington Mazoni de Andrade
+Wesley Ferreira
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/wesley-fsa/
