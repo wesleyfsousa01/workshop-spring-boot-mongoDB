@@ -72,4 +72,4 @@ yarn start
 
 Wesley Ferreira
 
-https://www.linkedin.com/wesley-fsa/
+https://www.linkedin.com/in/wesley-fsa/
