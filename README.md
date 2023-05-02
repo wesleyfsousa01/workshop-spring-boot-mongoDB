@@ -38,6 +38,26 @@ Os diretorios se relacionam através de referências e aninhamento de dados.
 ## Implantação
 - Banco de dados: MongoDB
 
+# Como executar o projeto
+
+Pré-requisitos: 
+ * Java 18
+ * MongoDB
+ * MongoDBCompass
+ * Maven
+
+```bash
+# clonar repositório
+git clone https://github.com/wesleyfsousa01/workshop-spring-boot-mongoDB.git
+
+# entrar na pasta do projeto
+cd worshop-spring-boot-mongoDB
+
+# executar o projeto
+mvn spring-boot:run
+```
+
+
 
 
 # Autor
