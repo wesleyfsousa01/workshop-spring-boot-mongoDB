@@ -16,7 +16,7 @@ Esta é uma aplicação construída durante o curso  **Java COMPLETO 2023 Progra
 
 **Descrição:**
 
-A aplicação consiste em um sistema, onde é possivel realizar um CRUD de operações, inserção, recuperação, atualização e deleção, através do protocolo de comunicação HTTP e seus metodos, em um banco de dados não relacional (MongoDB), através de uma API REST, criada usando o framework SpringBoot. Neste sistema os Usuarios ralizam postagens, e estes posts contém interações de outros usuarios, os comentários. 
+A aplicação consiste em um sistema, onde é possivel realizar um CRUD de operações, inserção, recuperação, atualização e deleção, através do protocolo de comunicação HTTP e seus metodos, em um banco de dados não relacional (MongoDB), consumindo endpoints de uma API REST, criada usando o framework SpringBoot. Neste sistema os Usuarios ralizam postagens, e estes posts contém interações de outros usuarios, os comentários. 
 Os diretorios se relacionam através de referências e aninhamento de dados.
 
 ## Endpoints
