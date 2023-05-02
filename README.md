@@ -5,18 +5,28 @@
 
 Esta é uma aplicação construída durante o curso  **Java COMPLETO 2023 Programação Orientada a Objetos +Projetos** , promovido pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+**Objetivo geral:**
+* Compreender as principais diferenças entre paradigma orientado a documentos e relacional
+* Implementar operações de CRUD
+* Refletir sobre decisões de design para um banco de dados orientado a documentos
+* Implementar associações entre objetos
+  * Objetos aninhados
+  * Referências
+* Realizar consultas com Spring Data e MongoRepository
+
+**Descrição:**
+
+A aplicação consiste em um sistema, onde é possivel realizar um CRUD de operações, inserção, recuperação, atualização e deleção, através do protocolo de comunicação HTTP e seus metodos, em um banco de dados não relacional (MongoDB), através de uma API REST, criada usando o framework SpringBoot. Neste sistema os Usuarios ralizam postagens, e estes posts contém interações de outros usuarios, os comentários. 
+Os diretorios se relacionam através de referências e aninhamento de dados.
 
 ## Endpoints
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![GET/users](https://github.com/wesleyfsousa01/assets/blob/main/get-users.png)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![GET/posts?resquests](https://github.com/wesleyfsousa01/assets/blob/main/get-posts-requestparam.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/wesleyfsousa01/assets/blob/main/modelo-banco.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -24,49 +34,11 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
 
-# Como executar o projeto
+## Implantação
+- Banco de dados: MongoDB
 
-## Back end
-Pré-requisitos: Java 11
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
 
 # Autor
 
