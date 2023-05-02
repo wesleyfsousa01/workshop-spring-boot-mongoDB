@@ -20,13 +20,13 @@ A aplicação consiste em um sistema, onde é possivel realizar um CRUD de opera
 Os diretorios se relacionam através de referências e aninhamento de dados.
 
 ## Endpoints
-![GET/users](https://github.com/wesleyfsousa01/assets/blob/main/get-users.png)
+![GET/users](https://github.com/wesleyfsousa01/workshop-spring-boot-mongoDB/blob/master/assets/imagens/get-users.png)
 
 
-![GET/posts?resquests](https://github.com/wesleyfsousa01/assets/blob/main/get-posts-requestparam.png)
+![GET/posts?resquests](https://github.com/wesleyfsousa01/workshop-spring-boot-mongoDB/blob/master/assets/imagens/get-posts-requestparam.png)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/wesleyfsousa01/assets/blob/main/modelo-banco.png)
+![Modelo Conceitual](https://github.com/wesleyfsousa01/workshop-spring-boot-mongoDB/blob/master/assets/imagens/modelo-banco.png)
 
 # Tecnologias utilizadas
 ## Back end
